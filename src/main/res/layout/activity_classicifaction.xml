@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".classicifactionActivity"
+    android:background="@drawable/gaze3">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="299dp"
+        android:layout_height="96dp"
+        android:text="what symptoms are you feeling?"
+        android:textAlignment="center"
+        android:textColor="#F1EDED"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <Button
+        android:id="@+id/dep"
+        android:layout_width="152dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#7E7F9A60"
+        android:onClick="depression"
+        android:text="Depression"
+        android:textColor="#E3DBDB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52"
+        app:rippleColor="#120E0E" />
+
+    <Button
+        android:id="@+id/hope"
+        android:layout_width="152dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#7E7F9A60"
+        android:onClick="hope"
+        android:text="Desperate"
+        android:textColor="#E8E2E2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+    <Button
+        android:id="@+id/sui"
+        android:layout_width="152dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#7E7F9A60"
+        android:onClick="suicide"
+        android:text="Suicidal"
+        android:textColor="#F8F4F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.758" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="321dp"
+        android:layout_height="188dp"
+        android:text="Pick your symptom and get a motivational quote to warm your heart!"
+        android:textAlignment="center"
+        android:textColor="#E4E4E4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246" />
+</androidx.constraintlayout.widget.ConstraintLayout>
